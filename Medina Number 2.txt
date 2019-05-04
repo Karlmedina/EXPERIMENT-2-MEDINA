@@ -1,6 +1,6 @@
 //Number 2: The program will illustate the bill of every customer
 #include <iostream>
-#conio.h
+#include <conio.h>
 using namespace std;
 int main()
 {
