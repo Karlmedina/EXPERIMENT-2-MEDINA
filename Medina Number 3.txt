@@ -1,0 +1,44 @@
+//Number 3: This program will illustrate that the value of V depends on the values of X and Y
+#include <iostream>
+#include <cmath>
+#include <conio.h>
+using namespace std;
+
+int main()
+
+{
+	double X, Y, V = 0, Z = 2.5;
+	
+	cout << "Enter the Value of X: ";
+	cin >> X;
+	cout << "Enter the Value of Y: ";
+	cin >> Y;
+	
+	if (X = 1 && Y > 1 && Y < 5)
+		{
+		V = X*Y*Z;
+		cout <<"V = " << V << endl;
+		}
+	else if (X = 1 && Y >= 5)
+		{
+		V = ((X+Y)/Z);
+		cout <<"V = " << V << endl;
+		}
+	else if (X = 2 && Y <= 5)
+		{
+		V = (X-Y)/Z;
+		cout <<"V = " << V << endl;
+		}
+	else if (X = 2 && Y > 5)
+		{
+		V = X  -(sqrt (Y + Z));
+		cout <<"V = " << V << endl;
+		}
+	else 
+		{
+		V = X + Y + Z;
+		cout <<"V = " << V << endl;
+		}	
+_getch();
+return 0;	
+}

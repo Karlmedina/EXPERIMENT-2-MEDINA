@@ -1,0 +1,27 @@
+//Number 2: The program will illustate the bill of every customer
+#include <iostream>
+#conio.h
+using namespace std;
+int main()
+{
+int demandcharge, latecharge;
+float balance, amount, usedcharge, gallons; 
+usedcharge=1.10;
+demandcharge=35;
+latecharge = 20;
+
+    cout<<"Enter the number of gallons" <<endl;
+    cin>>gallons;
+    amount = (gallons * usedcharge) + demandcharge ;
+{
+    cout << "Enter amount of outstanding balance" <<endl;;
+    cin >> balance;
+    if (balance == 0)
+    cout <<"Your total bill is = " << amount << " pesos." << endl;
+    if (balance > 0)
+    cout <<"Your total bill is = " << amount + latecharge << " pesos." << endl;
+ }
+   _getch();
+    return 0;
+}
+

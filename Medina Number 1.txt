@@ -1,0 +1,45 @@
+// Number 1: This program will generate the Internet monthly bills of every customer
+#include <iostream>
+#include <conio.h>
+#include <string>
+using namespace std;
+
+int main()
+{
+int p1, p2, p3,type,add;
+    
+    p1 = 995;
+    p2 = 1495;
+    p3 = 1995;
+    
+    cout<<"Type of Package  Number of Package          Amount        Additional per hour" <<endl;
+    cout<<"Package A                1                    995                          20" <<endl;
+    cout<<"Package B                2                    1495                         10" <<endl;
+    cout<<"Package C                3                    1995                  Unlimited" <<endl;
+    
+    do {
+        cout<<"Enter the number of the Package" << endl;
+        cin >> type;
+    }
+    
+    while(0);{
+    if (type<=0 || type>=4){
+        cout<<"Invalid input, enter again: " <<endl;
+        cin>>type;}
+    
+    if (type == 1) {
+    cout<<"Enter additional hours: " <<endl;
+    cin >> add;
+    cout<< "The total monthly bill is " << p1 + (add*20) <<endl; }
+    
+    if (type == 2) {
+    cout<<"Enter additional hours: " <<endl;
+    cin >> add;
+    cout<< "The total monthly bill is " << p2 + (add*10) <<endl; }
+    
+    if (type == 3) {
+    cout<< "The total monthly bill is " << p3 <<endl; }
+    }
+_getch();    
+return 0;
+}

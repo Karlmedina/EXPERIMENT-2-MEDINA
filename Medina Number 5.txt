@@ -1,0 +1,22 @@
+// Number 5: This program will generate the counting numbers starting from number 1 up to 10. When it reaches number 10 it will add 2 until it reaches 30.
+
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main()
+
+{
+
+int n1;
+
+    for (n1=1; n1<=10; n1++)
+    cout<< n1 <<" , ";
+    for (n1=12; n1<=28; n1+=2)
+    cout<< n1 <<" , ";
+    for (n1=30; n1<=30; n1++)
+    cout <<n1 <<" " ;
+    _getch();
+    return 0;
+    
+}
